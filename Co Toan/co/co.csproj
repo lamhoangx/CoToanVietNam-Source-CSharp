@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9B78AF84-724E-4E99-9D02-A5F955624B2A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CoToan</RootNamespace>
+    <AssemblyName>CoToan</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Banco.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BanCo.cs" />
+    <Compile Include="Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info.Designer.cs">
+      <DependentUpon>Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New.Designer.cs">
+      <DependentUpon>New.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Control.Designer.cs">
+      <DependentUpon>Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Open.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Open.Designer.cs">
+      <DependentUpon>Open.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quan0.cs" />
+    <Compile Include="Quan9.cs" />
+    <Compile Include="Quan8.cs" />
+    <Compile Include="Quan7.cs" />
+    <Compile Include="Quan6.cs" />
+    <Compile Include="Quan5.cs" />
+    <Compile Include="Quan4.cs" />
+    <Compile Include="Quan3.cs" />
+    <Compile Include="Quan2.cs" />
+    <Compile Include="Game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game.Designer.cs">
+      <DependentUpon>Game.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NguoiChoi.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quan1.cs" />
+    <Compile Include="QuanCo.cs" />
+    <Compile Include="VanCo.cs" />
+    <Compile Include="Win.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Win.Designer.cs">
+      <DependentUpon>Win.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Game.resx">
+      <DependentUpon>Game.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control.resx">
+      <DependentUpon>Control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info.resx">
+      <DependentUpon>Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New.resx">
+      <DependentUpon>New.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Open.resx">
+      <DependentUpon>Open.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Win.resx">
+      <DependentUpon>Win.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Banco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Den0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Den0_Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Den1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Den1_Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Den2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Den2_Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Den3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Den3_Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Den4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Den4_Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Den5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Den5_Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Den6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Den6_Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Den7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Den7_Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Den8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Den8_Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Den9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Den9_Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trang0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trang0_Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trang1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trang1_Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trang2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trang2_Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trang3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trang3_Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trang4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trang4_Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trang5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trang5_Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trang6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trang6_Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trang7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trang7_Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trang8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trang8_Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trang9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trang9_Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit_MouseOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mini_MouseOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CanMove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Options.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Options_MouseOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Undo_MouseOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Newgame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Newgame_MouseOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open_MouseOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play_MouseOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save_MouseOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Turning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BatDau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BatDau_MouseOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thoat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thoat_MouseOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Del.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Del_MouseOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\About.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\About_MouseOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Win.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SubForm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thongtin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\About.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Luat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Luat_MouseOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TacGia_MouseOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ThucHien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ThucHien_MouseOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TacGia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnTacGia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Banco.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

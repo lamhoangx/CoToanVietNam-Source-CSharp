@@ -1,0 +1,37 @@
+D:\Bao cao\CoToan\co\co\bin\Debug\CoToan.exe
+D:\Bao cao\CoToan\co\co\bin\Debug\CoToan.pdb
+D:\Bao cao\CoToan\co\co\obj\x86\Debug\CoToan.Game.resources
+D:\Bao cao\CoToan\co\co\obj\x86\Debug\CoToan.Control.resources
+D:\Bao cao\CoToan\co\co\obj\x86\Debug\CoToan.New.resources
+D:\Bao cao\CoToan\co\co\obj\x86\Debug\CoToan.Properties.Resources.resources
+D:\Bao cao\CoToan\co\co\obj\x86\Debug\co.csproj.GenerateResource.Cache
+D:\Bao cao\CoToan\co\co\obj\x86\Debug\CoToan.exe
+D:\Bao cao\CoToan\co\co\obj\x86\Debug\CoToan.pdb
+D:\Bao cao\CoToan\co\co\obj\x86\Debug\CoToan.Open.resources
+D:\Bao cao\CoToan\co\co\obj\x86\Debug\co.csprojResolveAssemblyReference.cache
+C:\Users\HL\Downloads\Buton\CoToan\co\co\bin\Debug\CoToan.exe
+C:\Users\HL\Downloads\Buton\CoToan\co\co\bin\Debug\CoToan.pdb
+C:\Users\HL\Downloads\Buton\CoToan\co\co\obj\x86\Debug\CoToan.Game.resources
+C:\Users\HL\Downloads\Buton\CoToan\co\co\obj\x86\Debug\CoToan.Control.resources
+C:\Users\HL\Downloads\Buton\CoToan\co\co\obj\x86\Debug\CoToan.New.resources
+C:\Users\HL\Downloads\Buton\CoToan\co\co\obj\x86\Debug\CoToan.Open.resources
+C:\Users\HL\Downloads\Buton\CoToan\co\co\obj\x86\Debug\CoToan.Properties.Resources.resources
+C:\Users\HL\Downloads\Buton\CoToan\co\co\obj\x86\Debug\co.csproj.GenerateResource.Cache
+C:\Users\HL\Downloads\Buton\CoToan\co\co\obj\x86\Debug\CoToan.exe
+C:\Users\HL\Downloads\Buton\CoToan\co\co\obj\x86\Debug\CoToan.pdb
+C:\Users\HL\Downloads\Buton\CoToan\co\co\obj\x86\Debug\CoToan.Win.resources
+C:\Users\HL\Downloads\Buton\CoToan\co\co\obj\x86\Debug\CoToan.Info.resources
+C:\Users\HL\Downloads\Buton\CoToan\co\co\obj\x86\Debug\co.csprojResolveAssemblyReference.cache
+C:\Users\HL\Downloads\Buton\co\co\obj\x86\Debug\CoToan.exe
+C:\Users\HL\Downloads\Buton\co\co\obj\x86\Debug\CoToan.pdb
+C:\Users\HL\Downloads\Buton\co\co\bin\Debug\CoToan.exe
+C:\Users\HL\Downloads\Buton\co\co\bin\Debug\CoToan.pdb
+C:\Users\HL\Downloads\Buton\co\co\obj\x86\Debug\co.csprojResolveAssemblyReference.cache
+C:\Users\HL\Downloads\Buton\co\co\obj\x86\Debug\CoToan.Game.resources
+C:\Users\HL\Downloads\Buton\co\co\obj\x86\Debug\CoToan.Control.resources
+C:\Users\HL\Downloads\Buton\co\co\obj\x86\Debug\CoToan.Info.resources
+C:\Users\HL\Downloads\Buton\co\co\obj\x86\Debug\CoToan.New.resources
+C:\Users\HL\Downloads\Buton\co\co\obj\x86\Debug\CoToan.Open.resources
+C:\Users\HL\Downloads\Buton\co\co\obj\x86\Debug\CoToan.Properties.Resources.resources
+C:\Users\HL\Downloads\Buton\co\co\obj\x86\Debug\CoToan.Win.resources
+C:\Users\HL\Downloads\Buton\co\co\obj\x86\Debug\co.csproj.GenerateResource.Cache

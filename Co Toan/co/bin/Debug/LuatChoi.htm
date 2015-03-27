@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0036)http://cotoan.vnvista.com/rules.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Luật chơi</title>
+<style type="text/css">
+body {
+	background:#FFFFF0;
+	text-align:justify;
+}
+.center {
+	text-align:center;
+	margin:10px;
+}
+.tryit {
+	text-align: right;
+	margin:10px;
+	font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+<div class="tryit"><a href="http://cotoan.vnvista.com/game/tryit.html" target="_blank">Tạo bàn cờ chơi thử</a></div>
+
+<p>Bàn cờ hình chữ nhật, gồm 99 ô (9 ô hàng ngang và 11 ô hàng dọc). Ô thứ 5 ở hàng thứ 2 của mỗi bên có đường chéo là vị trí cố định của quân số 0 (tức trong khi chơi, số 0 không được di chuyển). Quân cờ hình tròn, mỗi bên một màu khác nhau, trên mỗi quân có các dấu chấm tròn thể hiện các số thứ tự 1-9 (ví dụ, quân số 1 có một chấm tròn; quân số 9 có chín chấm tròn).</p>
+
+<p>Như vậy, mỗi bên có chín quân cờ và một quân số 0. Hai bên cùng xếp quân vào hàng ngang dưới cùng theo thứ tự 1-9 (theo chiều từ trái qua phải, tức tăng dần).</p>
+
+<div class="center"><img src="./Luật chơi_files/game.png"> </div>
+
+<p>Ngoại trừ quân số 0 không được phép di chuyển ra khỏi vị trí, các quân còn lại 1-9 đều được đi theo tám hướng (trong đó bốn hướng đi thẳng ra bốn phía ngang, dọc và bốn hướng đi chéo theo đông - tây - nam - bắc). Mỗi ô trống trên bàn cờ là một bước đi. Số bước đi được thực hiện theo trị số riêng của từng quân cờ. Chẳng hạn, số 2 có thể đi 1-2 ô trống, số 9 có thể đi 1-9 ô trống tùy mục đích của người chơi.</p>
+
+<div class="center"><img src="./Luật chơi_files/moves.png"> </div>
+
+<p>Khi muốn bắt quân của đối phương, điều kiện là bên mình phải có hai quân đứng trong hai ô liền nhau theo chiều dọc hoặc ngang hoặc chéo (để tạo thành một phép tính và phía trước không có quân của đối phương đứng cản). Sau đó dùng các phép hoặc cộng (+), hoặc trừ (-), hoặc nhân (x), hoặc chia (:) với nhau để ra đáp số. Đáp số của mỗi phép tính là điểm có thể bắt được quân của đối phương.</p>
+
+<p>Chẳng hạn, bên mình có quân 8 và quân 5 đứng liền nhau (8 đứng dưới, 5 đứng trên) theo hàng dọc thì có thể lấy 8-5 = 3 hoặc 8+5 = 13 để bắt quân đang đứng ở ô thứ 3 của đối phương (tính từ ô của quân 5 đứng trước) nếu muốn đánh tiến. Sau đó, lấy quân số 8 thế vào vị trí mà quân số của đối đối phương bị bắt. Còn nếu muốn bắt lùi thì lấy 5+8 = 13 và bắt quân đang đứng ở ô thứ 3 bắt đầu tính từ quân số 8.</p>
+
+<p>Chú ý, nếu kết quả của phép cộng hoặc nhân mà lớn hơn 10 thì chỉ lấy số của hàng đơn vị để tính điểm bắt quân. Chẳng hạn 5+8 = 13 thì 3 là điểm để bắt quân của đối phương. Nếu là phép chia có dư thì được tính cả đáp số và số dư để bắt quân. Chẳng hạn, lấy quân 8 chia cho quân 5 bằng 1 dư 3 thì 1 hoặc 3 là ô cờ được bắt quân của đối phương. Không thể lấy 5 x 8 = 40 vì điểm 0 là không có giá trị.</p>
+
+<p>Trong khi tính toán, nếu phía trước có quân của đối phương đứng cản thì không thể bắt được quân của đối phương. Chẳng hạn 8+5 = 13 thì có thể bắt được quân số bất kỳ của đối phương (1, 2, 3, 4...) đang đứng ở ô thứ 3 tính từ quân số 5 của bên mình, nhưng nếu ở ô thứ 1, 2 có quân đối phương đang đứng thì không thể bắt được quân ở ô thứ 3 kể trên.</p>
+
+<div class="center"><img src="./Luật chơi_files/movenums.png"> </div>
+
+<p>Cờ toán khác cờ tướng ở chỗ cờ tướng thì ăn trực tiếp (ngoại trừ quân pháo). Còn cờ toán buộc phải có hai quân để có thể làm một phép tính. </p>
+
+<p>Trong quá trình chơi, bất kể khi nào, cứ bắt được quân số 0 của đối phương là thắng tuyệt đối. Tuy nhiên, nếu không bắt được quân số 0 vẫn có thể tính việc thắng - thua bằng cách dựa theo số điểm. Mỗi quân cờ có số điểm tính theo trị số của nó. Chẳng hạn quân số 1 là 1 điểm, số 2 là 2 điểm... Trước khi chơi, hai bên có thể thỏa thuận thang điểm cho mỗi ván là 10-15-20 điểm... Bên nào bắt được số quân của bên kia có tổng điểm bằng hoặc cao hơn thang điểm thỏa thuận trước thì sẽ thắng. Chẳng hạn nếu thang điểm là 10 thì chỉ cần ăn được quân 5 và quân 6 của đối phương (tổng điểm 11) là thắng.</p>
+
+</body></html>
